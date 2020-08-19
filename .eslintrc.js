@@ -16,6 +16,7 @@ module.exports = {
   rules: {
     "no-shadow": "off",
     "camelcase": "off",
+    "react/jsx-props-no-spreading": "off",
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
