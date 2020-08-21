@@ -16,7 +16,7 @@ html {
 
 
 body {
-    background: #E5E5E5;
+    background: #FFFFFF;
     color: #212121;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -30,8 +30,13 @@ body, #root {
     flex-direction: column;
 }
 
-h1, h2, h3, h4, h5, h6, input, label, button {
-  font-family: Montserrat, sans-serif;
+#root {
+  max-width: 128rem;
+  padding: 3rem 3.2rem 0 3.2rem;
+}
+
+h1, h2, h3, h4, h5, h6, input, label, strong, span, button {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
