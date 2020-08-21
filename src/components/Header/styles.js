@@ -12,4 +12,8 @@ export const Container = styled.div`
     font-weight: 600;
     font-size: 1.4rem;
   }
+
+  svg {
+    cursor: pointer;
+  }
 `;

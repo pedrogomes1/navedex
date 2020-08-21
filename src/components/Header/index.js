@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 
+import history from '../../services/history';
 import { Container } from './styles';
-import logo from '../../assets/images/logo-header.svg';
+import { useAuth } from '../../hooks/auth';
+import { ReactComponent as Logo } from '../../assets/images/logo-header.svg';
 
 export default function Header() {
+  const { signOut } = useAuth();
+
+  const handleSignOut = useCallback(() => {
+    signOut();
+  }, [signOut]);
   return (
     <Container>
-      <img src={logo} alt="Logo header Nave.rs" />
+      <Logo onClick={() => history.push('/home')} />
 
-      <button type="button">Sair</button>
+      <button type="button" onClick={handleSignOut}>
+        Sair
+      </button>
     </Container>
   );
 }
