@@ -9,7 +9,7 @@
 
 ## 👨🏻‍💻 Sobre o projeto
 
-- O sistema web consiste em uma web app para visualização, cadastro, edição e exclusão dos navers cadastrados no sistema consumindo uma API já pronta que foi estabelecida. Possui também um fluxo de autenticação, onde o usuário só pode acessar as telas internas do sistema se estiver devidamente autenticado.
+- O sistema web consiste em uma aplicação para visualização, cadastro, edição e exclusão dos navers cadastrados no sistema consumindo uma API já pronta que foi estabelecida. Possui também um fluxo de autenticação, onde o usuário só pode acessar as telas internas do sistema se estiver devidamente autenticado.
 
 
 ## 💻 Iniciando o projeto
