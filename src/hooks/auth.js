@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
 
     const user = { id, email };
 
-    api.defaults.headers.Authorization = `Bearer ${response.token}`;
+    api.defaults.headers.Authorization = `Bearer ${response.data.token}`;
 
     localStorage.setItem('@Navedex:token', token);
     localStorage.setItem('@Navedex:user', JSON.stringify(user));
