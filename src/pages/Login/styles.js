@@ -23,21 +23,22 @@ export const Wrapper = styled.div`
   img {
     margin-bottom: 0.8rem;
   }
-`;
-export const Form = styled.form`
-  width: 100%;
 
-  padding: 0rem 3.2rem;
-
-  button {
+  form {
     width: 100%;
-    height: 4rem;
-    background: #212121;
-    color: #ffffff;
 
-    margin-top: 3.2rem;
-    font-size: 1.4rem;
+    padding: 0rem 3.2rem;
 
-    border: 0;
+    button {
+      width: 100%;
+      height: 4rem;
+      background: #212121;
+      color: #ffffff;
+
+      margin-top: 3.2rem;
+      font-size: 1.4rem;
+
+      border: 0;
+    }
   }
 `;
