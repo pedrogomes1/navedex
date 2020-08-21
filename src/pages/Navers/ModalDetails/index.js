@@ -45,7 +45,7 @@ export default function ModalDetails({ onClose, open, onConfirm, userId }) {
 
           <NaverInformations>
             <Content>
-              <h1>Asdf</h1>
+              <h1>{user.name}</h1>
               <span>{user.job_role}</span>
 
               <strong>Idade</strong>
